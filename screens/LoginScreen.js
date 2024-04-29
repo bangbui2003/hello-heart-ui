@@ -185,13 +185,6 @@ export default function LoginScreen() {
     </KeyboardAvoidingView>
   );
 }
-
-const style = StyleSheet.create({
-  container: {
-    height: 400,
-  },
-});
-
 // import { View, Text, Image, KeyboardAvoidingView } from "react-native";
 // import React from "react";
 // import { StatusBar } from "expo-status-bar";

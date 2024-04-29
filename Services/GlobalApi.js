@@ -18,6 +18,13 @@ const AxiosInstance2 = axios.create({
   },
 });
 
+const updateProfile = async (patientData) => {
+  try {
+    console.log("Update Profile");
+    console.log(patientData);
+  } catch (err) {}
+};
+
 const registerUser = async (userData) => {
   try {
     console.log(userData);
@@ -38,6 +45,10 @@ const registerUser = async (userData) => {
     }
   }
 };
+
+////////////////////////////////////////
+
+///////////////////////////////////////
 
 const loginUser = async (loginData) => {
   try {
